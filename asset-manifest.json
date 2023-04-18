@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cra_connect_four_game/static/css/main.cda1026e.css",
+    "main.js": "/cra_connect_four_game/static/js/main.2e0b4437.js",
+    "static/media/SpaceGrotesk-Medium.ttf": "/cra_connect_four_game/static/media/SpaceGrotesk-Medium.dff8d806ce24db6ac483.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/cra_connect_four_game/static/media/SpaceGrotesk-Bold.96e001703fcc4898de0e.ttf",
+    "static/media/board-layer-black-small.svg": "/cra_connect_four_game/static/media/board-layer-black-small.42afffd73e45d00ba497.svg",
+    "static/media/board-layer-black-large.svg": "/cra_connect_four_game/static/media/board-layer-black-large.33490574022d850673c1.svg",
+    "static/media/board-layer-white-large.svg": "/cra_connect_four_game/static/media/board-layer-white-large.8d1e0d20b4249f8a7e07.svg",
+    "static/media/board-layer-white-small.svg": "/cra_connect_four_game/static/media/board-layer-white-small.0c56315ab5bb47330f80.svg",
+    "static/media/player-vs-player.svg": "/cra_connect_four_game/static/media/player-vs-player.0f4120171bf670fca99a.svg",
+    "static/media/player-vs-cpu.svg": "/cra_connect_four_game/static/media/player-vs-cpu.c864805caf4d283a8c1f.svg",
+    "static/media/logo.svg": "/cra_connect_four_game/static/media/logo.18f406c1e091b7f33f727e65e6a8cf5b.svg",
+    "static/media/counter-red-small.svg": "/cra_connect_four_game/static/media/counter-red-small.ebb6f102699bb8bd2755.svg",
+    "static/media/turn-background-red.svg": "/cra_connect_four_game/static/media/turn-background-red.a17013f69456193c4ebcdcad8719a2e4.svg",
+    "static/media/counter-yellow-small.svg": "/cra_connect_four_game/static/media/counter-yellow-small.28a64a8cf4c3f9abb40b.svg",
+    "static/media/counter-yellow-large.svg": "/cra_connect_four_game/static/media/counter-yellow-large.f7e047b0e89b59153893.svg",
+    "static/media/counter-red-large.svg": "/cra_connect_four_game/static/media/counter-red-large.660c2bf877150e5a3430.svg",
+    "static/media/player-two.svg": "/cra_connect_four_game/static/media/player-two.3808ca69d8458efbdca19bd10962ae09.svg",
+    "static/media/cpu.svg": "/cra_connect_four_game/static/media/cpu.7221667e8e44311ff9a0b7fca4e4543b.svg",
+    "static/media/turn-background-yellow.svg": "/cra_connect_four_game/static/media/turn-background-yellow.542520d67124db0b4558830a9ed020d7.svg",
+    "static/media/player-one.svg": "/cra_connect_four_game/static/media/player-one.dddd4c6dd39939e6572b23602ed52bf8.svg",
+    "static/media/marker-red.svg": "/cra_connect_four_game/static/media/marker-red.201fc49ae1d8753513aeda6bd7021db2.svg",
+    "static/media/marker-yellow.svg": "/cra_connect_four_game/static/media/marker-yellow.a8ee5c49c251b26a543fb469cccdffa8.svg",
+    "index.html": "/cra_connect_four_game/index.html",
+    "static/media/icon-check.svg": "/cra_connect_four_game/static/media/icon-check.09edb9dc6d34aac5a1b0.svg",
+    "static/media/icon-check_hover.svg": "/cra_connect_four_game/static/media/icon-check_hover.d56bcac0c2f2531d4e99.svg",
+    "main.cda1026e.css.map": "/cra_connect_four_game/static/css/main.cda1026e.css.map",
+    "main.2e0b4437.js.map": "/cra_connect_four_game/static/js/main.2e0b4437.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda1026e.css",
+    "static/js/main.2e0b4437.js"
+  ]
+}
