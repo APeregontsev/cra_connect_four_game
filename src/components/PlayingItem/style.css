@@ -1,0 +1,76 @@
+.playing-item {
+  width: 70px;
+  height: 75px;
+  /*  text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width: 705px) {
+  .playing-item {
+    width: 41px;
+    height: 46px;
+  }
+}
+
+.playing-item.win::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 24%;
+  left: 24%;
+  width: 50%;
+  height: 45%;
+  border-radius: 50%;
+  border: 5px solid var(--White);
+}
+
+.playing-item.red {
+  background: url("./../../images/counter-red-large.svg") 0 0 / cover;
+  width: 70px;
+  height: 75px;
+}
+.playing-item.yellow {
+  background: url("./../../images/counter-yellow-large.svg") 0 0 / cover;
+  width: 70px;
+  height: 75px;
+}
+@media (max-width: 705px) {
+  .playing-item.red {
+    background: url("./../../images/counter-red-small.svg") 0 0 / cover;
+    width: 41px;
+    height: 46px;
+  }
+  .playing-item.yellow {
+    background: url("./../../images/counter-yellow-small.svg") 0 0 / cover;
+    width: 41px;
+    height: 46px;
+  }
+}
+
+.playing-item img {
+}
+
+.playing-item.animate {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation-name: item-fall-down;
+  animation-duration: 1s;
+}
+
+@keyframes item-fall-down {
+  0% {
+    top: -700px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.non-visible {
+  visibility: hidden;
+  z-index: 10;
+}

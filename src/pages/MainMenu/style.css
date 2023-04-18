@@ -1,0 +1,24 @@
+/* --------MENU-CARD---------------------------------------------------------------------- */
+
+.main-menu-wrapper {
+  background-color: var(--Purple);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-card-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 470px) {
+  .main-menu-wrapper {
+    background-color: var(--Purple-light);
+  }
+}

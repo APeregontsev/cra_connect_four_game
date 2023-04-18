@@ -1,0 +1,90 @@
+.menu-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 480px;
+  background-color: var(--Purple-light);
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 40px;
+  /*  filter: drop-shadow(0px 9px 1px rgba(0, 0, 0, 1)); */
+  border-bottom: 10px solid black;
+  margin: 0px 10px;
+  position: absolute;
+  z-index: 15;
+}
+
+.rules {
+  background-color: var(--White);
+}
+
+.menu-card-rules {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 71px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.menu-card-pause {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 71px;
+  text-align: center;
+  color: var(--White);
+}
+
+@media (max-width: 425px) {
+  .menu-card-rules {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu-card-pause {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 365px) {
+  .menu-card-pause {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 470px) {
+  .menu-card.main-menu {
+    border: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 365px) {
+  .menu-card-rules {
+    font-size: 44px;
+  }
+}
+
+/* paste in game menu */
+
+.menu-card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
